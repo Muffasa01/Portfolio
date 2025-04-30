@@ -11,7 +11,7 @@ const Landing_page = () => {
   return (
     <div className="relative min-h-screen bg-[#13222A]">
       <Nav_bar />
-      <div className="relative">
+      <div className="relative pt-4">
         <div className="flex flex-col w-fit  gap-2 shadow-lg items-center rounded-md fixed top-55 right-4">
           <span className="hover:bg-[#1a2a31] transition-all duration-300 ease-in-out px-2 py-2 cursor-pointer rounded-md">
             <Linkedin color="#42D392" strokeWidth={0.75} />
@@ -23,7 +23,7 @@ const Landing_page = () => {
             <Github color="#42D392" strokeWidth={0.75} />
           </span>
         </div>
-        <div className="w-full flex flex-col items-center mt-8">
+        <div className="w-full flex flex-col items-center md:mt-8 sm:mt-4 ">
           <div className="h-[153px] w-[153px] bg-gradient-to-l from-[#42D392] to-blue-300 rounded-full flex items-center justify-center">
             <div className="h-[150px] w-[150px] rounded-full overflow-hidden">
               <img src={immg} alt="" className="object-cover size-fit" />

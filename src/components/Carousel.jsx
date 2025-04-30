@@ -7,7 +7,7 @@ import cssSvg from "../assets/css-svgrepo-com.svg";
 import expressSvg from "../assets/express-svgrepo-com.svg";
 import gqlSvg from "../assets/graphql-svgrepo-com.svg";
 import htmlSvg from "../assets/html-5-svgrepo-com.svg";
-import js02 from "../assets/js02-svgrepo-com.svg";
+// import js02 from "../assets/js02-svgrepo-com.svg";
 import mongoDb from "../assets/mongodb-logo-svgrepo-com.svg";
 import tailwindSvg from "../assets/tailwindcss-icon-svgrepo-com.svg";
 
@@ -57,7 +57,7 @@ const CarouselC = () => {
               max: 1024,
               min: 464
             },
-            items: 2,
+            items: 3,
             partialVisibilityGutter: 30
           }
         }}
@@ -69,62 +69,63 @@ const CarouselC = () => {
         sliderClass=""
         slidesToSlide={2}
         swipeable
-        transitionDuration={1000}
+        transitionDuration={9000}
       >
-        <div className="h-15 w-40 border border-[#42D392] flex items-center justify-center rounded-lg relative transition-all duration-300">
+        <div className="h-15 w-40 border border-transparent flex items-center justify-center rounded-lg relative transition-all duration-300">
           <img src={reactSvg} alt="" />
           <div className="bg-black hidden  text-white opacity-50 absolute inset-0 rounded-lg hover:flex items-center justify-center">
             <span className="font-semibold"> Good </span>
           </div>
         </div>
-        <div className="h-15 w-40 border border-[#42D392] flex items-center justify-center rounded-lg relative transition-all duration-300">
+        <div className="h-15 w-40 border border-transparent  flex items-center justify-center rounded-lg relative transition-all duration-300">
           <img src={cssSvg} alt="" className="size-9" />
           <div className="bg-black hidden  text-white opacity-50 absolute inset-0 rounded-lg hover:flex items-center justify-center">
             <span className="font-semibold"> Good </span>
           </div>
         </div>
-        <div className="h-15 w-40 border border-[#42D392] flex items-center justify-center rounded-lg relative transition-all duration-300">
+        <div className="h-15 w-40 border border-transparent  flex items-center justify-center rounded-lg relative transition-all duration-300">
           <img src={expressSvg} alt="" className="size-9" />
           <div className="bg-black hidden  text-white opacity-50 absolute inset-0 rounded-lg hover:flex items-center justify-center">
             <span className="font-semibold"> Good </span>
           </div>
         </div>
-        <div className="h-15 w-40 border border-[#42D392] flex items-center justify-center rounded-lg relative transition-all duration-300">
+        {/* <div className="h-15 w-40 border border-transparent  flex items-center justify-center rounded-lg relative transition-all duration-300">
+          <img src={js02} alt="" className="size-9" />
+          <div className="bg-black hidden  text-white opacity-50 absolute inset-0 rounded-lg hover:flex items-center justify-center">
+            <span className="font-semibold"> Good </span>
+          </div>
+        </div> */}
+        <div className="h-15 w-40 border border-transparent  flex items-center justify-center rounded-lg relative transition-all duration-300">
           <img src={gqlSvg} alt="" className="size-9" />
           <div className="bg-black hidden  text-white opacity-50 absolute inset-0 rounded-lg hover:flex items-center justify-center">
             <span className="font-semibold"> Good </span>
           </div>
         </div>
-        <div className="h-15 w-40 border border-[#42D392] flex items-center justify-center rounded-lg relative transition-all duration-300">
+        <div className="h-15 w-40 border border-transparent flex items-center justify-center rounded-lg relative transition-all duration-300">
           <img src={htmlSvg} alt="" className="size-9" />
           <div className="bg-black hidden  text-white opacity-50 absolute inset-0 rounded-lg hover:flex items-center justify-center">
             <span className="font-semibold"> Good </span>
           </div>
         </div>
-        <div className="h-15 w-40 border border-[#42D392] flex items-center justify-center rounded-lg relative transition-all duration-300">
+        <div className="h-15 w-40 border border-transparent  flex items-center justify-center rounded-lg relative transition-all duration-300">
           <img src={tailwindSvg} alt="" className="size-9" />
           <div className="bg-black hidden  text-white opacity-50 absolute inset-0 rounded-lg hover:flex items-center justify-center">
             <span className="font-semibold"> Good </span>
           </div>
         </div>
-        <div className="h-15 w-40 border flex border-[#42D392] items-center justify-center rounded-lg relative transition-all duration-300">
+        <div className="h-15 w-40 border flex border-transparent  items-center justify-center rounded-lg relative transition-all duration-300">
           <img src={mongoDb} alt="" className="size-20" />
           <div className="bg-black hidden  text-white opacity-50 absolute inset-0 rounded-lg hover:flex items-center justify-center">
             <span className="font-semibold"> Good </span>
           </div>
         </div>
-        <div className="h-15 w-40 border border-[#42D392] flex items-center justify-center rounded-lg relative transition-all duration-300">
+        
+        {/* <div className="h-15 w-40 border border-transparent  flex items-center justify-center rounded-lg relative transition-all duration-300">
           <img src={js02} alt="" className="size-9" />
           <div className="bg-black hidden  text-white opacity-50 absolute inset-0 rounded-lg hover:flex items-center justify-center">
             <span className="font-semibold"> Good </span>
           </div>
-        </div>
-        <div className="h-15 w-40 border border-[#42D392] flex items-center justify-center rounded-lg relative transition-all duration-300">
-          <img src={js02} alt="" className="size-9" />
-          <div className="bg-black hidden  text-white opacity-50 absolute inset-0 rounded-lg hover:flex items-center justify-center">
-            <span className="font-semibold"> Good </span>
-          </div>
-        </div>
+        </div> */}
       </Carousel>
     </div>
   );
