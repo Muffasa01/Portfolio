@@ -13,10 +13,10 @@ import tailwindSvg from "../assets/tailwindcss-icon-svgrepo-com.svg";
 const CarouselC = () => {
   
   return (
-    <div className="px-4 py-4 transition-all duration-300 ease-in-out absolute md:bottom-0 inset-x-0 ">
+    <div className="px-4 py-4 transition-all duration-300 ease-in-out absolute bottom-30 md:bottom-0 inset-x-0 ">
       <Carousel
         additionalTransfrom={0}
-        arrows
+        arrows={false}
         autoPlay
         autoPlaySpeed={1}
         centerMode={false}
