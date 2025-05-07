@@ -20,9 +20,9 @@ const Contact_page = () => {
           </span>
           <div className="grid md:grid-cols-2 grid-cols-1 gap-5  pt-5">
             <div className="flex flex-col gap-4 justify-center">
-            <span className="flex gap-2 items-center text-sm text-gray-400">
+              <span className="flex gap-2 items-center text-sm text-gray-400">
                 <MapPin size={20} color="#16ca5b" strokeWidth={1.25} />
-                <span >South Africa, Limpopo</span>
+                <span>South Africa, Limpopo</span>
               </span>
               <span className="flex gap-2 items-center text-sm text-gray-400">
                 <Mail size={20} color="#16ca5b" strokeWidth={1.25} />
@@ -77,8 +77,15 @@ const Contact_page = () => {
                   <textarea
                     name=""
                     id="message"
-                    className="outline-none border-[1px] w-[230px] h-[100px] pl-11 border-gray-400 dark:border-gray-600 rounded-md p-1 text-gray-700 dark:text-gray-200 focus:ring-1 transition duration-300 ease-in-out focus:ring-blue-500"
+                    className="outline-none border-[1px] w-[230px] h-[100px] border-gray-400 dark:border-gray-600 rounded-md p-1 text-gray-700 dark:text-gray-200 focus:ring-1 transition duration-300 ease-in-out focus:ring-blue-500"
                   ></textarea>
+                </div>
+                <div className="pt-2">
+                  <button className="px-[1px] rounded-md shadow-md border-transparent hover:bg-gradient-to-r transition-all duration-300 delay-150 ease-in-out cursor-pointer bg-clip-border bg-gradient-to-bl from-blue-400 to-green-300 py-[1px]">
+                    <div className="bg-[#13222A] text-gray-500 font-bold px-5 py-2 rounded-md">
+                      Send
+                    </div>
+                  </button>
                 </div>
               </form>
             </div>

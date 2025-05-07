@@ -13,7 +13,7 @@ import tailwindSvg from "../assets/tailwindcss-icon-svgrepo-com.svg";
 const CarouselC = () => {
   
   return (
-    <div className="px-4 py-4 transition-all duration-300 ease-in-out absolute bottom-0 inset-x-0 ">
+    <div className="px-4 py-4 transition-all duration-300 ease-in-out absolute md:bottom-0 inset-x-0 ">
       <Carousel
         additionalTransfrom={0}
         arrows
@@ -48,7 +48,7 @@ const CarouselC = () => {
               max: 464,
               min: 0
             },
-            items: 1,
+            items: 2,
             partialVisibilityGutter: 30
           },
           tablet: {

@@ -6,23 +6,11 @@ import immg from "../assets/IMG_4757.jpeg";
 import { useNavigate } from "react-router-dom";
 
 const Landing_page = () => {
-
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   return (
     <div className="relative min-h-screen bg-[#13222A]">
       <Nav_bar />
       <div className="relative pt-4">
-        <div className="flex flex-col w-fit  gap-2 shadow-lg items-center rounded-md fixed top-55 right-4">
-          <span className="hover:bg-[#1a2a31] transition-all duration-300 ease-in-out px-2 py-2 cursor-pointer rounded-md">
-            <Linkedin color="#42D392" strokeWidth={0.75} />
-          </span>
-          <span className="hover:bg-[#1a2a31] transition-all duration-300 ease-in-out px-2 py-2 cursor-pointer rounded-md">
-            <Facebook color="#42D392" strokeWidth={0.75} />
-          </span>
-          <span className="hover:bg-[#1a2a31]  transition-all duration-300 ease-in-out px-2 py-2 cursor-pointer rounded-md">
-            <Github color="#42D392" strokeWidth={0.75} />
-          </span>
-        </div>
         <div className="w-full flex flex-col items-center md:mt-8 sm:mt-4 ">
           <div className="h-[153px] w-[153px] hover:animate-float bg-gradient-to-l from-[#42D392] to-blue-300 rounded-full flex items-center justify-center">
             <div className="h-[150px] w-[150px] rounded-full overflow-hidden">
@@ -61,6 +49,17 @@ const Landing_page = () => {
               </div>
             </button>
           </div>
+        </div>
+        <div className="flex flex-col w-fit  gap-2 shadow-lg items-center rounded-md fixed top-20 md:top-55 right-4">
+          <span className="hover:bg-[#1a2a31] transition-all duration-300 ease-in-out px-2 py-2 cursor-pointer rounded-md">
+            <Linkedin color="#42D392" strokeWidth={0.75} />
+          </span>
+          <span className="hover:bg-[#1a2a31] transition-all duration-300 ease-in-out px-2 py-2 cursor-pointer rounded-md">
+            <Facebook color="#42D392" strokeWidth={0.75} />
+          </span>
+          <span className="hover:bg-[#1a2a31]  transition-all duration-300 ease-in-out px-2 py-2 cursor-pointer rounded-md">
+            <Github color="#42D392" strokeWidth={0.75} />
+          </span>
         </div>
       </div>
       <CarouselC />
