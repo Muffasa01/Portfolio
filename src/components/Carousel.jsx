@@ -1,13 +1,12 @@
 import React from "react";
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 import { FaHtml5 } from "react-icons/fa";
 import reactSvg from "../assets/react.svg";
 import cssSvg from "../assets/css-svgrepo-com.svg";
 import expressSvg from "../assets/express-svgrepo-com.svg";
 import gqlSvg from "../assets/graphql-svgrepo-com.svg";
 import htmlSvg from "../assets/html-5-svgrepo-com.svg";
-// import js02 from "../assets/js02-svgrepo-com.svg";
 import mongoDb from "../assets/mongodb-logo-svgrepo-com.svg";
 import tailwindSvg from "../assets/tailwindcss-icon-svgrepo-com.svg";
 
