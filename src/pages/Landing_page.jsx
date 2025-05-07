@@ -11,7 +11,7 @@ const Landing_page = () => {
     <div className="relative min-h-screen bg-[#13222A]">
       <Nav_bar />
       <div className="relative pt-4">
-        <div className="w-full flex flex-col items-center md:mt-8 sm:mt-4 ">
+        <div className="w-full flex flex-col items-center md:mt-8 mt-10">
           <div className="h-[153px] w-[153px] hover:animate-float bg-gradient-to-l from-[#42D392] to-blue-300 rounded-full flex items-center justify-center">
             <div className="h-[150px] w-[150px] rounded-full overflow-hidden">
               <img src={immg} alt="" className="object-cover size-fit" />
